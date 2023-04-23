@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+.quantity-input {
+  text-align: center;
+}
+
+.minus-btn,
+.plus-btn {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+.minus-btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.plus-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-group-append {
+  position: relative;
+  width: 100%;
+}
+
+.input-group-append:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.125);
+  z-index: 0;
+}

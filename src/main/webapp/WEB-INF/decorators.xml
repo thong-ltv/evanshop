@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+	<excludes>
+	<patern>/api*</patern>
+	</excludes>
+	
+	<decorator name="register" page="register.jsp">
+		<pattern>/register*</pattern>
+	</decorator>
+	
+	<decorator name="login" page="login.jsp">
+		<pattern>/login*</pattern>
+	</decorator>
+	
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/admin*</pattern>
+	</decorator>
+	
+	<decorator name="card" page="card.jsp">
+		<pattern>/card*</pattern>
+	</decorator>
+	
+	<decorator name="product" page="productDetail.jsp">
+		<pattern>/product*</pattern>
+	</decorator>
+	
+	<decorator name="web" page="web.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
